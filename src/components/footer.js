@@ -8,7 +8,7 @@ class Footer extends Component {
           <p id="nametag">© Copyright - Alexander Chen 2020</p>
           <p class="insta-tag">
             Photo creds: @thethomasbui
-            <a href="https://www.instagram.com/thethomasbui/" class="btn">
+            <a href="https://www.instagram.com/thethomasbui/" class="btn" target="_blank">
               <i class="fab fa-instagram text-light"></i>
             </a>
           </p>
