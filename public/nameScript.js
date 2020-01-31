@@ -3,7 +3,7 @@ var canvas = document.querySelector("#scene"),
   particles = [],
   amount = 0,
   mouse = {x:0,y:0},
-  radius = 1;
+  radius = 0.3;
 
 var colors = ["#1452BC","#0F65FF", "#0F7EFF"];
 
@@ -22,7 +22,7 @@ function Particle(x,y){
   this.vy = (Math.random()-0.5)*20;
   this.accX = 0;
   this.accY = 0;
-  this.friction = Math.random()*0.05 + 0.94;
+  this.friction = 0.95;
 
   this.color = colors[Math.floor(Math.random()*6)];
 }
